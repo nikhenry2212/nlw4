@@ -6,9 +6,9 @@ export function Profile(){
   const {level} = useContext(ChallengesContext);
   return(
     <div className={styles.profileContainer}>
-      <img src="https://github.com/nikhenry2212.png" alt="Nikolas Prudente"/>
+      <img src="https://github.com/PriPrudente.png" alt="Nikolas Prudente"/>
       <div>
-        <strong>Nikolas Prudente</strong>
+        <strong>Priscila Prudente</strong>
         <p>
           <img src="icons/level.svg" alt="Level"/>
           Level {level}
